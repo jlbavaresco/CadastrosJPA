@@ -3,6 +3,7 @@
   <persistence-unit name="CadastrosJPAPU" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>br.edu.ifsul.modelo.Categoria</class>
+    <class>br.edu.ifsul.modelo.Produto</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/cadastrosjpa"/>
       <property name="javax.persistence.jdbc.user" value="postgres"/>
